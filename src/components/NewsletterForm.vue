@@ -12,17 +12,38 @@ import IllustrationMobile from "../assets/IllustrationMobile.vue";
     <div class="flex flex-col gap-6 px-6">
       <h1 class="text-4.5xl font-bold leading-none">Stay updated!</h1>
       <p>Join 60,000+ product managers receiving monthly updates on:</p>
-      <ul class="list-outside" :class="$style.list">
-        <li class="mx-4">Product discovery and building what matters</li>
-        <li class="mx-4">Measuring to ensure updates are a success</li>
-        <li class="mx-4">And much more!</li>
+      <ul class="list-outside list-image-none">
+        <li>Product discovery and building what matters</li>
+        <li>Measuring to ensure updates are a success</li>
+        <li>And much more!</li>
       </ul>
     </div>
+
+    <form class="flex flex-col px-6">
+      <label for="email" class="mb-2 text-xs font-bold">Email address</label>
+      <input
+        type="email"
+        name="email"
+        class="w-full rounded-lg border-2 border-charcoal-gray border-opacity-[25%] px-6 py-4 text-opacity-50"
+        placeholder="email@company.com"
+      />
+
+      <button
+        class="mb-10 mt-6 h-14 w-full rounded-lg bg-dark-slate-gray text-center font-bold text-white"
+      >
+        Subscribe to monthly newsletter
+      </button>
+    </form>
   </main>
 </template>
 
-<style lang="css" module>
-.list {
-  list-style-image: url("../../public/icon-list.svg");
+<style lang="css" scoped>
+ul li {
+  @apply relative mb-2 pl-[2.3125rem] last:mb-0;
+}
+
+ul li::before {
+  background: url("../assets/icon-list.svg");
+  @apply absolute left-0 size-[1.3125rem] bg-cover bg-center bg-no-repeat content-[''];
 }
 </style>
