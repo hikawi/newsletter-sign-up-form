@@ -1,47 +1,79 @@
-# Astro Starter Kit: Minimal
+# Frontend Mentor - Newsletter sign-up form with success message solution
 
-```sh
-npm create astro@latest -- --template minimal
-```
+This is a solution to the [Newsletter sign-up form with success message challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+## Table of contents
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
 
-## 🚀 Project Structure
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-Inside of your Astro project, you'll see the following folders and files:
+## Overview
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+### The challenge
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Users should be able to:
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+- Add their email and submit the form
+- See a success message with their email after successfully submitting the form
+- See form validation messages if:
+  - The field is left empty
+  - The email address is not formatted correctly
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
 
-Any static assets, like images, can be placed in the `public/` directory.
+### Screenshot
 
-## 🧞 Commands
+<details>
 
-All commands are run from the root of the project, from a terminal:
+<summary>Desktop</summary>
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+![Desktop](./screenshot-desktop.jpeg)
 
-## 👀 Want to learn more?
+![Desktop active](./screenshot-desktop-active.jpeg)
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+</details>
+
+<details>
+
+<summary>Mobile</summary>
+
+![Mobile](./screenshot-mobile.jpeg)
+
+![Mobile active](./screenshot-mobile-active.jpeg)
+
+</details>
+
+### Links
+
+- [Live Site URL](https://newsletter-sign-up-form.frilly.dev)
+
+## My process
+
+### Built with
+
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vue](https://vuejs.org/)
+- [Astro](https://astro.build/)
+
+### What I learned
+
+- Styling bullet points with `background-image` gives more control over styling with `list-style-type` and `list-style-position` or `::marker`.
+- No way to have a `<picture>` equivalence for `<svg>` apparently, and default to using `img` tag for SVGs. Not as fast as using inline SVGs, but still great to use media queries with.
+
+### Continued development
+
+I took a bit too long with the responsive design. I need a lot of practice here.
+
+### Useful resources
+
+- [Styling list - MDN Docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists) - Helped with styling `<ul>` and `<li>` elements.
+- [Flexbox Order](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Ordering_flex_items) - Ordering flex items.
