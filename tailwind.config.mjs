@@ -6,9 +6,6 @@ export default {
       width: {
         mobile: "375px",
       },
-      fontSize: {
-        "4.5xl": "2.5rem",
-      },
       colors: {
         tomato: "hsl(4, 100%, 67%)",
         "dark-slate-gray": "hsl(234, 29%, 20%)",

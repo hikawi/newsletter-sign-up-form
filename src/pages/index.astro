@@ -1,5 +1,5 @@
 ---
-import NewsletterForm from "../components/NewsletterForm.astro";
+import NewsletterForm from "../components/NewsletterForm.vue";
 ---
 
 <html lang="en">
@@ -29,6 +29,6 @@ import NewsletterForm from "../components/NewsletterForm.astro";
   <body
     class="font-roboto flex items-start lg:items-center justify-center bg-white lg:bg-dark-slate-gray min-h-screen h-fit w-full"
   >
-    <NewsletterForm />
+    <NewsletterForm client:load />
   </body>
 </html>
