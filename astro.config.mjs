@@ -1,9 +1,9 @@
 // @ts-check
 import { defineConfig } from "astro/config";
 
-import vue from "@astrojs/vue";
 import tailwind from "@astrojs/tailwind";
 import vercel from "@astrojs/vercel/serverless";
+import vue from "@astrojs/vue";
 
 // https://astro.build/config
 export default defineConfig({
@@ -12,4 +12,5 @@ export default defineConfig({
   adapter: vercel({
     imageService: true,
   }),
+  site: "https://newsletter-sign-up-form.frilly.dev",
 });

@@ -1,15 +1,27 @@
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref, useTemplateRef, watchEffect } from "vue";
 import IllustrationDiv from "./IllustrationDiv.vue";
 import SignupForm from "./SignupForm.vue";
 import SignupText from "./SignupText.vue";
-import IconSuccess from "../assets/IconSuccess.vue";
+import IconSuccess from "./icons/IconSuccess.vue";
 
 const submitted = ref("");
+const dialogRef = useTemplateRef("thanksDialog");
 
 function onSubmit(email: string) {
   submitted.value = email;
 }
+
+watchEffect(
+  () => {
+    if (submitted.value !== "") {
+      dialogRef.value?.focus(); // Focus on the popup dialog.
+    } else {
+      document.getElementById("email")?.focus(); // Focus on the input again.
+    }
+  },
+  { flush: "post" },
+);
 </script>
 
 <template>
@@ -22,12 +34,21 @@ function onSubmit(email: string) {
     <!-- Empty div to put the text center and the button at bottom. This isn't needed in lg+ sizes -->
     <div class="lg:hidden"></div>
 
-    <div class="flex flex-col gap-6">
+    <div
+      class="flex flex-col gap-6"
+      role="dialog"
+      ref="thanksDialog"
+      aria-labelledby="thanks-popup-heading"
+      aria-describedby="thanks-popup-description"
+    >
       <IconSuccess class="lg:-mt-4" />
-      <h2 class="mt-4 text-[2.5rem] font-bold leading-none lg:text-[3.5rem]">
+      <h2
+        class="mt-4 text-[2.5rem] font-bold leading-none lg:text-[3.5rem]"
+        id="thanks-popup-heading"
+      >
         Thanks for subscribing!
       </h2>
-      <p class="break-words">
+      <p class="break-words" id="thanks-popup-description">
         A confirmation email has been sent to
         <strong>{{ submitted }}</strong
         >. Please open it and click the button inside to confirm your

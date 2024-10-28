@@ -4,7 +4,7 @@ import illustrationMobile from "../assets/illustration-mobile.svg";
 </script>
 
 <template>
-  <div class="rounded-b-2xl lg:order-2">
+  <div class="rounded-b-2xl lg:order-2" aria-hidden="true">
     <picture>
       <source :srcset="illustrationDesktop.src" media="(min-width: 1024px)" />
       <img
