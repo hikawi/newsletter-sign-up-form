@@ -2,19 +2,25 @@
 
 This is a solution to the [Newsletter sign-up form with success message challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
+<div align="center">
+
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/hikawi/newsletter-sign-up-form) ![GitHub top language](https://img.shields.io/github/languages/top/hikawi/newsletter-sign-up-form?color=darkgreen) ![W3C Validation](https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Fnewsletter-sign-up-form.frilly.dev) ![GitHub branch check runs](https://img.shields.io/github/check-runs/hikawi/newsletter-sign-up-form/main?color=lavender) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/26607b58e6c446bd8278d37b14cc5b87)](https://app.codacy.com/gh/hikawi/newsletter-sign-up-form/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+
+</div>
+
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+- [Frontend Mentor - Newsletter sign-up form with success message solution](#frontend-mentor---newsletter-sign-up-form-with-success-message-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+    - [Useful resources](#useful-resources)
 
 ## Overview
 
