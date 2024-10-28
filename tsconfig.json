@@ -4,6 +4,6 @@
     "jsx": "preserve",
     "types": [
       "@testing-library/jest-dom"
-    ],
+    ]
   }
 }

@@ -4,7 +4,7 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 
 <div align="center">
 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/hikawi/newsletter-sign-up-form) ![GitHub top language](https://img.shields.io/github/languages/top/hikawi/newsletter-sign-up-form?color=darkgreen) ![W3C Validation](https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Fnewsletter-sign-up-form.frilly.dev) ![GitHub branch check runs](https://img.shields.io/github/check-runs/hikawi/newsletter-sign-up-form/main?color=lavender) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/26607b58e6c446bd8278d37b14cc5b87)](https://app.codacy.com/gh/hikawi/newsletter-sign-up-form/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/hikawi/newsletter-sign-up-form) ![GitHub top language](https://img.shields.io/github/languages/top/hikawi/newsletter-sign-up-form?color=darkgreen) ![W3C Validation](https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Fnewsletter-sign-up-form.frilly.dev) ![GitHub branch check runs](https://img.shields.io/github/check-runs/hikawi/newsletter-sign-up-form/main?color=lavender) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/26607b58e6c446bd8278d37b14cc5b87)](https://app.codacy.com/gh/hikawi/newsletter-sign-up-form/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade) [![Codacy Badge](https://app.codacy.com/project/badge/Coverage/26607b58e6c446bd8278d37b14cc5b87)](https://app.codacy.com/gh/hikawi/newsletter-sign-up-form/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_coverage)
 
 </div>
 
