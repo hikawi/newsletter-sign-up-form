@@ -10,7 +10,7 @@ export default getViteConfig({
       exclude: ["./src/pages/**", "./src/assets/**", ...coverageConfigDefaults.exclude],
       enabled: true,
       provider: "istanbul",
-      reporter: process.env.CI ? "json" : "text",
+      reporter: process.env.CI ? "lcovonly" : "text",
       reportsDirectory: "./test-results"
     },
     setupFiles: ["./tests/setup.ts"],
