@@ -12,7 +12,7 @@ jobs:
         with:
           node-version: latest
       - name: Install
-        run: npm ci
+        run: npm i
       - name: Test
         run: npx vitest run
         env:
